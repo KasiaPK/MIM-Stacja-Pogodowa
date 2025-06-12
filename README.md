@@ -3,7 +3,7 @@ Projekt przedstawia prostą stację pogodową zbudowaną na mikrokontrolerze STM
 
 odczytuje temperaturę, wilgotność i ciśnienie z czujnika BME280 przez I2C,
 
-wyświetla dane na ekranie OLED SSD1306 (SPI),
+wyświetla dane na ekranie OLED SSD1306 (I2C),
 
 obsługuje przycisk sprzętowy do zmiany trybu wyświetlania (inwersja),
 
@@ -25,7 +25,7 @@ Płytka STM32 – np. NUCLEO-F411RE
 
 Czujnik BME280 – podłączony przez I2C1
 
-Wyświetlacz OLED SSD1306 – podłączony przez SPI
+Wyświetlacz OLED SSD1306 – podłączony przez I2C3
 
 Przycisk – do zmiany trybu wyświetlacza (np. USER Button na NUCLEO)
 
